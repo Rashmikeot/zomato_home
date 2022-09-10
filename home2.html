@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home2.css">
+</head>
+
+<body>
+
+    <main class="container-fluid">
+        <header class="row">
+            <div class="col-12 heading">
+                <div class="text-end m-3 p-3">
+                    <button class="btn text-light col-lg-1 col-md-3 col-8">log in</button>
+                    <button class="btn btn-outline-light col-lg-2 col-md-5 col-10">Create an account</button>
+                </div>
+            <section class="col 12">
+                <div class="row">
+                   <div class="col-12 mt-5 mb-2 d-flex justify-content-center">
+                    <p class="logo h3 text-danger  ">e!</p>
+                   </div>
+                <p class="text-light h2  text-center">Find the best cafes , bar and restaurants</p>
+                </div>
+    <!--search buttoms-->
+         <div class="col-12 ">
+            <div class="row justify-content-center">
+               <div class="col-lg-2 col-md-6 col-10 " data-bs-toggle="collapse" data-bs-target="#guwahati-suggestions" aria-controls="guwahati-suggestions">
+                <div class="col-12">
+                    <input type="text" placeholder="search for location" class="col-12 form-control">
+                    <div  class="collapse bg-light" id="guwahati-suggestions" >
+                        <div class="m-3 p-3">
+                            <p> GS road guwahati</p> <hr>
+                        <p> MG Market Sikkim</p> <hr>
+                        <p> LB road Tezpur</p> <hr>
+                        <p>MK road Jorhat</p> <hr>
+                        </div>
+                    </div>
+
+                </div>
+               </div>
+
+           <div  class="col-lg-4 col-md-8 col-12 " data-bs-toggle="collapse" data-bs-target="#restaurant-suggestions" aria-controls="restaurant-suggestions">
+            <div class="col-12">
+                <input type="text" name="" placeholder="search for resturant" id="search for restaurants" class="col-12 form-control">
+                <div class="collapse bg-dark text-light" id="restaurant-suggestions" >
+                    <div class="d-flex m-2 p-2">
+                        <img src="image2.jpg" alt="" class="photo">
+                        <p class="ms-2"> KRC palace Tezpur</p>  
+                    </div>
+                    <hr>
+                    <div class="d-flex m-2 p-2">
+                        <img src="image5.jpg" alt="" class="photo">
+                        <p class="ms-2"> Heritange Jorhat</p>  
+                    </div>
+                    <hr>
+                    <div class="d-flex m-2 p-2">
+                        <img src="image1.jpg" alt=""  class="photo">
+                        <p class="ms-2"> WoodBox guwahati</p>  
+                    </div>
+                </div>
+            </div>
+           </div>
+            </div>
+
+        </div>
+
+            </section>
+
+            </div>
+
+        </header>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="style2 fw-bold h4 mt-4">Quick Search</p>
+                    <p class="text-muted my-3">Discover resturants by type of meal</p>
+                </div>
+                <div class="row">
+                    <!--breakfast-->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 pe-3 m-0 mb-3">
+                        <div class="card p-0 m-0 row list-group-flush flex-row shadow-lg bg-body rounded">
+                            <div class="col-4 p-0 m-0">
+                                <img src="image1.jpg" class="image" />
+                            </div>
+                            <div class="col-7 py-2">
+                                <p class="card-title h5 fw-bold">Breakfast</p>
+                                <p class="card-text text-muted">Start your day with exclusive breakfast options</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--snacks-->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 pe-3 m-0 mb-3">
+                        <div class="card p-0 m-0 row list-group-flush flex-row shadow-lg bg-body rounded">
+                            <div class="col-4 p-0 m-0">
+                                <img src="image2.jpg" class="image" />
+                            </div>
+                            <div class="col-7 py-2 ">
+                                <p class="card-title h5 fw-bold">Snacks</p>
+                                <p class="card-text text-muted">Start your day with exclusive breakfast options</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--lunch-->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 pe-3 m-0 mb-3">
+                        <div class="card p-0 m-0 row list-group-flush flex-row shadow-lg bg-body rounded ">
+                            <div class="col-4 p-0 m-0">
+                                <img src="image3.jpg" class="image" />
+                            </div>
+                            <div class="col-7 py-2 ">
+                                <p class="card-title  h5 fw-bold">Lunch</p>
+                                <p class="card-text text-muted">Start your day with exclusive breakfast options</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--dinner-->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 pe-3 m-0 mb-3">
+                        <div class="card p-0 m-0 row list-group-flush flex-row shadow-lg bg-body rounded">
+                            <div class="col-4 p-0 m-0">
+                                <img src="image3.jpg" class="image" />
+                            </div>
+                            <div class="col-7 py-2 ">
+                                <p class="card-title h5 fw-bold">dinner</p>
+                                <p class="card-text text-muted">Start your day with exclusive breakfast options</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-----drinks-->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 pe-3 m-0 mb-3">
+                        <div class="card p-0 m-0 row list-group-flush flex-row shadow-lg bg-body rounded">
+                            <div class="col-4 p-0 m-0">
+                                <img src="image5.jpg" class="image" />
+                            </div>
+                            <div class="col-7 py-2 ">
+                                <p class="card-title h5 fw-bold">drinks</p>
+                                <p class="card-text text-muted">Start your day with exclusive breakfast options</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!---nightlife-->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 pe-3 m-0 mb-3 ">
+                        <div class="card p-0 m-0 row list-group-flush flex-row shadow-lg bg-body rounded">
+                            <div class="col-4 p-0 m-0">
+                                <img src="image4.jpg" class="image" />
+                            </div>
+                            <div class="col-7 py-2 ">
+                                <p class="card-title h5 fw-bold">Nightlife</p>
+                                <p class="card-text text-muted">Start your day with exclusive breakfast options</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+</body>
+
+</html>
